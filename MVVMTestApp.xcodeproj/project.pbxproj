@@ -16,6 +16,9 @@
 		36644E282C4E3C04006D98B0 /* MVVMTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36644E272C4E3C04006D98B0 /* MVVMTestAppTests.swift */; };
 		36644E322C4E3C04006D98B0 /* MVVMTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36644E312C4E3C04006D98B0 /* MVVMTestAppUITests.swift */; };
 		36644E342C4E3C04006D98B0 /* MVVMTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36644E332C4E3C04006D98B0 /* MVVMTestAppUITestsLaunchTests.swift */; };
+		36644E412C4E3CB7006D98B0 /* MovieDatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36644E402C4E3CB7006D98B0 /* MovieDatabaseHelper.swift */; };
+		36644E432C4E3D78006D98B0 /* MovieDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36644E422C4E3D78006D98B0 /* MovieDataTableViewCell.swift */; };
+		367CCBE02C54AC3B00A5E1DC /* DataContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CCBDF2C54AC3B00A5E1DC /* DataContracts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		36644E2D2C4E3C04006D98B0 /* MVVMTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36644E312C4E3C04006D98B0 /* MVVMTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTestAppUITests.swift; sourceTree = "<group>"; };
 		36644E332C4E3C04006D98B0 /* MVVMTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36644E402C4E3CB7006D98B0 /* MovieDatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDatabaseHelper.swift; sourceTree = "<group>"; };
+		36644E422C4E3D78006D98B0 /* MovieDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataTableViewCell.swift; sourceTree = "<group>"; };
+		367CCBDF2C54AC3B00A5E1DC /* DataContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContracts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				36644E102C4E3C02006D98B0 /* AppDelegate.swift */,
 				36644E122C4E3C02006D98B0 /* SceneDelegate.swift */,
 				36644E142C4E3C02006D98B0 /* ViewController.swift */,
+				36644E422C4E3D78006D98B0 /* MovieDataTableViewCell.swift */,
+				36644E402C4E3CB7006D98B0 /* MovieDatabaseHelper.swift */,
+				367CCBDF2C54AC3B00A5E1DC /* DataContracts.swift */,
 				36644E162C4E3C02006D98B0 /* Main.storyboard */,
 				36644E192C4E3C04006D98B0 /* Assets.xcassets */,
 				36644E1B2C4E3C04006D98B0 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				36644E152C4E3C02006D98B0 /* ViewController.swift in Sources */,
+				367CCBE02C54AC3B00A5E1DC /* DataContracts.swift in Sources */,
+				36644E412C4E3CB7006D98B0 /* MovieDatabaseHelper.swift in Sources */,
 				36644E112C4E3C02006D98B0 /* AppDelegate.swift in Sources */,
 				36644E132C4E3C02006D98B0 /* SceneDelegate.swift in Sources */,
+				36644E432C4E3D78006D98B0 /* MovieDataTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
